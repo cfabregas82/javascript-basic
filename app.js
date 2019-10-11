@@ -1,3 +1,19 @@
+function calculadora(primerNumero, segundoNumero){
+  
+var suma = primerNumero + segundoNumero;
+var resta = primerNumero - segundoNumero;
+var multiplicar = primerNumero * segundoNumero;
+  
+alert("El resultado de la suma da " + suma);
+alert("El resultado de la resta da " + resta);
+alert("El resultado de la multiplicación da " + multiplicar);
+}
+
+var numero1 = 3;
+var numero2 = 5;
+
+calculadora(numero1, numero2);
+
 console.log("Hola Mundo")
 
 alert("¡Me llamo Cristian!")
